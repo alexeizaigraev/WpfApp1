@@ -1,0 +1,28 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="987.18" Width="1638.019">
+    <Grid Margin="0,0,12,0" Background="#FF0BE3EE">
+        <ListBox x:Name="listBox1" HorizontalAlignment="Left" Height="149" Margin="1273,139,0,0" VerticalAlignment="Top" Width="220" FontSize="20" Background="#FF05F1E7" Foreground="#FF115DE2"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="84" Margin="47,26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="1446" FontSize="20" Background="#FF18FBFB" Foreground="#FF1156EA"/>
+        <Button x:Name="buttonListBox1" Content="HrDep" HorizontalAlignment="Left" Margin="1273,319,0,0" VerticalAlignment="Top" Width="220" Click="buttonListBox1_Click" FontSize="20" Background="#FF0AEBF5" Foreground="#FF163CE8"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="177" Margin="47,738,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="1524" FontSize="20" ScrollViewer.CanContentScroll="True" Background="#FF18FBFB" Foreground="#FF0E54EA"/>
+        <Button x:Name="buttonClear" Content="Clear" HorizontalAlignment="Left" Margin="1508,26,0,0" VerticalAlignment="Top" Width="89" Click="buttonClear_Click" FontSize="20" Height="35" RenderTransformOrigin="3.17,-5.787" Background="#FF08EEF9" Foreground="#FF0862E4"/>
+        <ListBox x:Name="listBoxPeople" HorizontalAlignment="Left" Height="149" Margin="47,139,0,0" VerticalAlignment="Top" Width="220" FontSize="20" Background="#FF05F1E7" Foreground="#FF0F61F1"/>
+        <Button x:Name="buttonPeople" Content="People" HorizontalAlignment="Left" Margin="47,319,0,0" VerticalAlignment="Top" Width="220" Click="buttonPeople_Click" FontSize="20" Background="#FF0AEBF5" Foreground="#FF0E52E4"/>
+        <ListBox x:Name="listBoxSome" HorizontalAlignment="Left" Height="149" Margin="333,139,0,0" VerticalAlignment="Top" Width="220" FontSize="20" Background="#FF05F1E7" Foreground="#FF115CE0"/>
+        <Button x:Name="buttonSome" Content="Some" HorizontalAlignment="Left" Margin="333,319,0,0" VerticalAlignment="Top" Width="220" Click="buttonSome_Click" FontSize="20" Background="#FF0AEBF5" Foreground="#FF0C4FDE"/>
+        <ListBox x:Name="listBoxMonitor" HorizontalAlignment="Left" Height="149" Margin="47,415,0,0" VerticalAlignment="Top" Width="220" FontSize="20" Background="#FF05F1E7" Foreground="#FF135FE6"/>
+        <Button x:Name="buttonMonitor" Content="Monitor" HorizontalAlignment="Left" Margin="47,594,0,0" VerticalAlignment="Top" Width="220" Click="buttonMonitor_Click" FontSize="20" Background="#FF19F3F3" Foreground="#FF1452D6"/>
+        <Button x:Name="buttonOtbor" Content="Otbor" HorizontalAlignment="Left" Margin="1508,78,0,0" VerticalAlignment="Top" Width="89" Click="buttonOtbor_Click" FontSize="20" Height="32" RenderTransformOrigin="3.17,-5.787" Background="#FF38F3F3" Foreground="#FF0D69EE"/>
+        <ListBox x:Name="listBoxAccess" HorizontalAlignment="Left" Height="149" Margin="616,139,0,0" VerticalAlignment="Top" Width="220" FontSize="20" Background="#FF05F1E7" Foreground="#FF0C5AE2"/>
+        <Button x:Name="buttonAccess" Content="Access" HorizontalAlignment="Left" Margin="607,319,0,0" VerticalAlignment="Top" Width="220" Click="buttonAccess_Click" FontSize="20" Background="#FF0AEBF5" Foreground="#FF0C48C7"/>
+        <ListBox x:Name="listBoxKabinet" HorizontalAlignment="Left" Height="149" Margin="1273,415,0,0" VerticalAlignment="Top" Width="220" FontSize="20" Background="#FF05F1E7" Foreground="#FF1363EE"/>
+        <Button x:Name="buttonKabinet" Content="Kabinet" HorizontalAlignment="Left" Margin="1273,594,0,0" VerticalAlignment="Top" Width="220" Click="buttonKabinet_Click" FontSize="20" Background="#FF19F3F3" Foreground="#FF1259F1"/>
+
+    </Grid>
+</Window>
